@@ -2,6 +2,9 @@
     "concurrently": "^8.2.0"
   },
   "scripts": {
-      "start": "concurrently \"npm --prefix ./LabMan-Frontend start\" \"npm --prefix ./LabMan-Backend start\""
-     }
+
+      "start": "node LabMan-Backend/src/index.js",
+      "heroku-postbuild": "npm install --prefix ./LabMan-Frontend && npm run build --prefix ./LabMan-Frontend"
+
+    }
 }
