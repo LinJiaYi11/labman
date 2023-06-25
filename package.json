@@ -1,4 +1,4 @@
-  "dependencies": {
+ { "dependencies": {
     "concurrently": "^8.2.0"
   },
   "scripts": {
