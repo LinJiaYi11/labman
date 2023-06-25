@@ -3,8 +3,7 @@
   },
   "scripts": {
 
-      "start": "node LabMan-Backend/src/index.js",
-      "heroku-postbuild": "npm install --prefix ./LabMan-Frontend && npm run build --prefix ./LabMan-Frontend"
+   "start": "npm --prefix ./LabMan-Frontend start"
 
     }
 }
