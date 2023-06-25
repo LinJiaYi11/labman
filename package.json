@@ -1,9 +1,9 @@
  { "dependencies": {
     "concurrently": "^8.2.0"
   },
-  "scripts": {
 
-   "start": "npm --prefix ./LabMan-Frontend start"
-
-    }
+    "scripts": {
+      "start": "node LabMan-Backend/src/index.js",
+      "heroku-postbuild": "cd LabMan-Frontend && npm install && npm run build"
+  }
 }
