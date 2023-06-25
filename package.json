@@ -1,9 +1,1 @@
- { 
-    "scripts": {
-      "start": "node LabMan-Backend/src/index.js",
-      "heroku-postbuild": "cd LabMan-Frontend && npm install && npm run build"
-  },
-  "engines": {
-    "node": "19.7"
-  }
-}
+{"scripts":{"start":"node LabMan-Backend/src/index.js","heroku-postbuild":"cd LabMan-Frontend && npm install && npm run build"},"engines":{"node":"19.7"},"dependencies":{"debug":"^4.3.4"}}
