@@ -7,7 +7,7 @@ import ReturnPage from "../pages/Admin/ReturnPage";
 import EquipmentPage from "../pages/Admin/EquipmentPage";
 import StudentPage from "../pages/Admin/StudentPage";
 import ActionHistoryPage from "../pages/Admin/ActionHistoryPage";
-import BorrowPage from "../pages/Admin/BorrowPage/index";
+import BorrowPage from "../pages/Admin/BorrowPage/index.js";
 import CoursePage from "../pages/Admin/CoursePage";
 import IndividualCoursePage from "../pages/Admin/IndividualCoursePage";
 import StudentList from "../pages/Admin/StudentListPage";
